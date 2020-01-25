@@ -1,0 +1,25 @@
+{
+  "name": "internet-shop-cart-in-local-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "animate.sass": "^1.0.1",
+    "animate.css": "^3.7.2",
+    "animate-custom.scss": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladGodOfJS/internet-shop-cart-in-local-storage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladGodOfJS/internet-shop-cart-in-local-storage/issues"
+  },
+  "homepage": "https://github.com/VladGodOfJS/internet-shop-cart-in-local-storage#readme"
+}
