@@ -1,0 +1,112 @@
+// main/
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #303030;
+    max-width: 100%;
+    margin: 0 auto;
+
+    @media(max-width:768px){
+        padding-top: 5px;
+    }
+    @media(max-width:568px){
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    &__section{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding-left: 15px;
+        flex:  0 0 45%;
+        margin: 10px;
+        height: 250px;
+        margin-top: 30px;
+
+        @media(max-width:1200px){
+            height: 200px;
+        }
+
+        @media(max-width:992px){
+            height: 160px;
+        }
+        
+        &:hover{
+            background-color:#8c8c8c  ;
+            transition: .4s;
+        }
+
+        @media(max-width:768px){
+            justify-content: space-around;
+            margin: 10px;
+            flex-basis: 0;
+            flex: 0 0 30%;
+            flex-wrap: wrap;
+        }
+
+        .section-info{
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            
+            &__title{
+                 @include fonts($ff,25px, #fff,700);
+                 letter-spacing: 1.75px;
+                 text-transform: uppercase;
+                
+                 @media (max-width:992px) {
+                    font-size: 22px;
+                }
+
+                @media (max-width:768px) {
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                }
+            }
+
+            &__sub-title{
+                 @include fonts($ff,15px,#979696,500);
+                 letter-spacing: 1px;
+                 margin-top: 10px;
+
+                 @media (max-width:992px) {
+                   font-size: 13px;
+                }
+
+                @media (max-width:768px) {
+                    font-size: 10px;
+                 }
+
+                 @media (max-width:768px) {
+                    font-size: 8px;
+                    letter-spacing: 0.50px;
+
+                 }
+            }
+        }
+        .main-img{
+            display: block;
+            max-width: 60%;
+          
+            @media (max-width:1200px) {
+                max-width: 50%;
+            }
+
+            @media (max-width:768px) {
+                height: 120px;
+            }
+            @media (max-width:568px) {
+                width: 100px;
+                height: 100px
+            }
+
+        }
+
+    }
+}
+
+

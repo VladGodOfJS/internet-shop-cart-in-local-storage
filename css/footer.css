@@ -1,0 +1,26 @@
+.footer {
+  background-color: #000;
+  padding-bottom: 60px; }
+  .footer .footer-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 35px; }
+    .footer .footer-body__copy {
+      font-family: "Lato";
+      font-size: 15px;
+      color: #887979;
+      font-weight: 400; }
+    .footer .footer-body__icons {
+      font-family: "Lato";
+      font-size: 27px;
+      color: #887979;
+      font-weight: 400; }
+      .footer .footer-body__icons i {
+        margin-right: 20px; }

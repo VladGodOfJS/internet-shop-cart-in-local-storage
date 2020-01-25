@@ -1,0 +1,137 @@
+@import "reset";
+@import "mixin";
+@import "variable";
+
+
+.buy{
+    background-image: url('/block3/Layer_6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 1);
+    background-position: 50%,50%;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5%;
+    
+    
+
+    .buy-wrap{
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        height: 100%;
+        width: 100%;
+        padding-top: 40px;
+      
+
+       .buy-now{
+           text-align: center;
+        
+        &__title{
+            @include fonts($ff,82px, #ffffff,700);
+            letter-spacing:3px;
+
+            @media(max-width:992px){
+                font-size: 62px;
+                letter-spacing:1px;
+            }
+
+            @media(max-width:540px){
+                font-size: 36px;
+            }
+
+            @media(max-width:414px){
+                font-size: 26px;
+                letter-spacing: 1px;
+            }
+
+            @media(max-width:414px){
+                font-size: 22px;
+                letter-spacing: 1px;
+            }
+        }
+
+        &__sub-title{
+            @include fonts($ff,40px, #ffffff,700);
+            text-transform: uppercase;
+            letter-spacing: 0.85px;
+            margin-top: 10px;
+
+            @media(max-width:992px){
+                font-size: 20px;
+            }
+
+            @media(max-width:540px){
+                font-size: 16px;
+            }
+
+            @media(max-width:414px){
+                font-size: 14px;
+                letter-spacing: 0;
+            }
+            @media(max-width:375px){
+                font-size: 12px;
+              
+            }
+        }
+
+        &__text{
+            @include fonts($ff,15px, #ffffff,400);
+            margin-top: 23px;
+
+            @media(max-width:540px){
+                font-size: 12px;
+            }
+            @media(max-width:414px){
+                font-size: 10px;
+            }
+
+            @media(max-width:375px){
+                font-size: 8px;
+            }
+        }
+
+        &__btn{
+            @include btn;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 20px;
+            margin-top: 30px;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: #ff3448;
+                transition: .3s;
+            }
+            @media(max-width:414px){
+                font-size: 15px;
+            }
+
+            @media(max-width:375px){
+                font-size: 12px;
+                margin-top: 15px;
+            }
+
+            @media(max-width:360px){
+                font-size: 8px;
+                margin-top: 10px;
+            }
+        }
+       }
+
+       .buy-now-line{
+           width: 2px;
+           height: 172px;
+           background-color: #ffffff;
+       }
+    }
+}
+
+
+
+
+
+
+    

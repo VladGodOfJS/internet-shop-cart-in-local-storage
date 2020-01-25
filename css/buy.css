@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.buy {
+  background-image: url("/block3/Layer_6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-position: 50%,50%;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 5%; }
+  .buy .buy-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    padding-top: 40px; }
+    .buy .buy-wrap .buy-now {
+      text-align: center; }
+      .buy .buy-wrap .buy-now__title {
+        font-family: "Lato";
+        font-size: 82px;
+        color: #ffffff;
+        font-weight: 700;
+        letter-spacing: 3px; }
+        @media (max-width: 992px) {
+          .buy .buy-wrap .buy-now__title {
+            font-size: 62px;
+            letter-spacing: 1px; } }
+        @media (max-width: 540px) {
+          .buy .buy-wrap .buy-now__title {
+            font-size: 36px; } }
+        @media (max-width: 414px) {
+          .buy .buy-wrap .buy-now__title {
+            font-size: 26px;
+            letter-spacing: 1px; } }
+        @media (max-width: 414px) {
+          .buy .buy-wrap .buy-now__title {
+            font-size: 22px;
+            letter-spacing: 1px; } }
+      .buy .buy-wrap .buy-now__sub-title {
+        font-family: "Lato";
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.85px;
+        margin-top: 10px; }
+        @media (max-width: 992px) {
+          .buy .buy-wrap .buy-now__sub-title {
+            font-size: 20px; } }
+        @media (max-width: 540px) {
+          .buy .buy-wrap .buy-now__sub-title {
+            font-size: 16px; } }
+        @media (max-width: 414px) {
+          .buy .buy-wrap .buy-now__sub-title {
+            font-size: 14px;
+            letter-spacing: 0; } }
+        @media (max-width: 375px) {
+          .buy .buy-wrap .buy-now__sub-title {
+            font-size: 12px; } }
+      .buy .buy-wrap .buy-now__text {
+        font-family: "Lato";
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        margin-top: 23px; }
+        @media (max-width: 540px) {
+          .buy .buy-wrap .buy-now__text {
+            font-size: 12px; } }
+        @media (max-width: 414px) {
+          .buy .buy-wrap .buy-now__text {
+            font-size: 10px; } }
+        @media (max-width: 375px) {
+          .buy .buy-wrap .buy-now__text {
+            font-size: 8px; } }
+      .buy .buy-wrap .buy-now__btn {
+        padding: 6px 48px;
+        border-radius: 23px;
+        background-color: #9c1c28;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-top: 30px;
+        cursor: pointer; }
+        .buy .buy-wrap .buy-now__btn:hover {
+          background-color: #ff3448;
+          -webkit-transition: .3s;
+          -o-transition: .3s;
+          transition: .3s; }
+        @media (max-width: 414px) {
+          .buy .buy-wrap .buy-now__btn {
+            font-size: 15px; } }
+        @media (max-width: 375px) {
+          .buy .buy-wrap .buy-now__btn {
+            font-size: 12px;
+            margin-top: 15px; } }
+        @media (max-width: 360px) {
+          .buy .buy-wrap .buy-now__btn {
+            font-size: 8px;
+            margin-top: 10px; } }
+    .buy .buy-wrap .buy-now-line {
+      width: 2px;
+      height: 172px;
+      background-color: #ffffff; }

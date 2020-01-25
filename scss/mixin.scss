@@ -1,0 +1,27 @@
+@mixin container {
+    margin: 0 auto;
+    max-width: 1170px;
+    height: inherit;
+    box-sizing: border-box;
+  
+    padding: 0 15px;   
+}
+
+
+@mixin fonts($ff,$fz,$fc,$fw){
+    font-family: $ff;
+    font-size: $fz;
+    color: $fc;
+    font-weight: $fw;
+}
+
+
+@mixin btn{
+    padding: 6px 48px ;
+    border-radius: 23px;
+    background-color: #9c1c28;
+    border: none;
+    outline: none;
+  
+}
+

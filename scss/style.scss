@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+@import "reset";
+@import "mixin";
+@import "variable";
+@import "header";
+@import"main";
+@import"product";
+@import"buy";
+@import"contacts";
+@import"footer";
+
+.container {
+    @include container; 
+    // border: 1px solid blue; 
+}
+
+@media(max-width:1200px){
+     
+    .container{
+        max-width: 970px;
+    }
+}
+@media(max-width:992px){
+     
+    .container{
+        max-width: 750px;
+    }
+}
+@media(max-width:767px){
+     
+    .container{
+        max-width: none;
+    }
+}
+
